@@ -3,12 +3,14 @@ package pl.edu.pjwstk.mprgr36.booksmpr3.repository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 import pl.edu.pjwstk.mprgr36.booksmpr3.model.Author;
 
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@SpringBootTest
 class AuthorRepositoryTest {
 
     AuthorRepository authorRepository;
